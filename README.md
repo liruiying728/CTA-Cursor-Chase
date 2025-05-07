@@ -6,5 +6,6 @@ The button hides temporarily when the cursor is idle or copying text, and reappe
 No deployment is needed — just download and open index.html in your browser.
 If you find it interesting, feel free to give it a ⭐️! Thanks!
 
-🎥 [Watch the demo on X](https://x.com/i/status/1920133567470067763)
-[https://ibb.co/JR8mzwD8](asd)
+[Watch the demo on X](https://x.com/i/status/1920133567470067763)
+or
+![Demo Screenshot](https://i.ibb.co/Y7JPtFHJ/Clean-Shot-2025-05-07-at-23-12-39.gif)

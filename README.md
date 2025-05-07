@@ -1,3 +1,5 @@
+# CTA-Cursor-Chase
+
 This is a lightweight demo where a CTA button follows the user’s cursor to draw attention and improve conversion.
 The button hides temporarily when the cursor is idle or copying text, and reappears once the mouse starts moving again.
 

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 480px;
+    text-align: center;
+}
+
+#floating-button {
+    position: fixed;
+    width: 88px;
+    height: 88px;
+    background-color: rgba(0, 0, 0, 0.88);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: opacity 300ms, left 1s cubic-bezier(0.22, 0.61, 0.36, 1), top 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+    will-change: transform, left, top, opacity;
+    animation: breathing 2s ease-in-out infinite;
+    z-index: 1000;
+}
+
+#floating-button button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+@keyframes breathing {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#floating-button:hover {
+    background-color: rgb(6, 58, 170);
+}

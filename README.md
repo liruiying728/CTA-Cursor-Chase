@@ -7,3 +7,4 @@ No deployment is needed — just download and open index.html in your browser.
 If you find it interesting, feel free to give it a ⭐️! Thanks!
 
 🎥 [Watch the demo on X](https://x.com/i/status/1920133567470067763)
+[https://ibb.co/JR8mzwD8](asd)
